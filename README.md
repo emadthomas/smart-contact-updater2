@@ -14,7 +14,7 @@ An Android application that automatically detects professional titles from phone
 ```
 smart-contact-updater/
 ├── backend/           # Node.js backend server (FREE API)
-└── android/           # Android app (coming soon)
+└── android/           # Android app 
 ```
 
 ## 🚀 Quick Start
