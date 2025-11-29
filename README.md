@@ -50,9 +50,30 @@ curl http://localhost:3000/health
 
 ✅ **Backend is running!**
 
-### Android Setup
+### Android Setup (20-30 minutes)
 
-Android app code coming soon! For now, the backend is ready to use.
+The complete Android app code is now available in the `android/` folder!
+
+1. **Open Android Studio**
+   - Create new "Empty Activity" project
+   - Name: SmartContactUpdater
+   - Package: com.example.smartcontactupdater
+   - Language: Kotlin
+   - Min SDK: 24
+
+2. **Copy all files from `android/` folder:**
+   - Copy each `.kt` file to the corresponding package
+   - Copy `AndroidManifest.xml`
+   - Copy `activity_main.xml` to `res/layout/`
+   - Update `build.gradle` with dependencies
+
+3. **Build and Run:**
+   - Build → Make Project
+   - Run → Run 'app'
+   - Grant all permissions
+   - Configure server URL in Settings
+
+**Detailed instructions:** See [android/README.md](android/README.md)
 
 ## 🔧 How It Works
 
